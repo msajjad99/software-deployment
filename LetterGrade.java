@@ -9,11 +9,13 @@ public class LetterGrade{
         Scanner scan = new Scanner(System.in);
         int grade = scan.nextInt();
 
-        if (grade >=92){
+        if (grade >= 97){
+            letterGrade = "A+";
+        } else if (grade >=92){
             letterGrade = "A";
         } else if (grade>=90){
             letterGrade = "A-";
-        }  else if (grade>=87){
+        } else if (grade>=87){
             letterGrade = "B+";
         } else if (grade>=82){
             letterGrade = "B";
